@@ -60,7 +60,7 @@ public class FileLock {
 	private static final String _lockFileEnding = ".lock";
 
 	/**
-	 * Legt ein Objekt an, die übergebene Datei wird nicht gegen den Zugriff gesichert. Dies muss expliziet mit dem Aufruf von {@link #lock()} geschehen.
+	 * Legt ein Objekt an, die übergebene Datei wird nicht gegen den Zugriff gesichert. Dies muss explizit mit dem Aufruf von {@link #lock()} geschehen.
 	 *
 	 * @param protectedFile Datei, die gesperrt werden soll.
 	 */
